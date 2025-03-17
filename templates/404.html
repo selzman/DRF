@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>404 Not Found</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body, html {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #353535;
+        }
+
+        .full-screen{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .full-screen div{
+             display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            color: aliceblue;
+        }
+        p{
+            font-size: 20px;
+        }
+
+
+        h1{
+        color: aliceblue;
+            font-size: 100px;
+        }
+
+        a{
+            background-color: #316FF6;
+            text-decoration: none;
+            padding: 15px;
+            border: 1px solid #316FF6;
+            color: aliceblue;
+            margin-top:20px ;
+            border-radius: 10px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="full-screen">
+        <div>
+            <h1> 404 </h1>
+            <p>The page were you looking for does not exist ! </p>
+
+        </div>
+    </div>
+</body>
+</html>
